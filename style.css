@@ -1,0 +1,110 @@
+*{
+    background-color: #0a2351;
+    font-family: 'Varela Round';
+}
+
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Varela Round';
+    color:skyblue;
+    letter-spacing: 10px;
+    
+
+}
+.title{
+  color: skyblue;
+  outline-style: dotted;
+
+  padding: 2%;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+
+}
+
+
+h2{
+  color: gold;
+  font-size: xx-large;
+}
+h3{
+  font-size: xx-large;
+}
+
+p{
+    font-size: x-large
+}
+
+.box1{
+    text-align: center;
+    font-family: 'Varela Round';
+    font-size: medium;
+    color: whitesmoke;
+    outline-style: double;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+li{
+  text-align: left;
+
+}
+.box2{
+  text-align: center;
+  font-family: 'Varela Round';
+  font-size: medium;
+  color: whitesmoke;
+  outline-style: double;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+    
+    
+}
+
+.box3{
+    text-align: center;
+    font-family: 'Varela Round';
+    font-size: medium;
+    color: whitesmoke;
+    outline-style: double;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.topnav {
+    background-color: #0a2351;
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+    padding: 2%;
+    font-size: x-large;
+    font-family: 'Varela Round';
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: navy;
+    color: gold;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: gold;
+  }
